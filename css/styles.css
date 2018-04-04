@@ -20,7 +20,7 @@
     float:right;
     margin-top:40px;
     margin-right:20px;
-    /*background-color: #1C1D21;*/
+    /*possible background-color: #1C1D21;*/
 }
 
 .nav_li{
@@ -36,6 +36,17 @@
     transition: 0s background-color, box-shadow;
 }
 
+.title{
+    color:white;
+    font-family:"Monoton";
+    text-align: center;
+    font-size: 40px;
+    float:left;
+    margin-left: 40px;
+    text-shadow: 2px 4px 3px  #00f9ff;
+
+}
+
 /*BODY*/
 
 body{
@@ -46,6 +57,8 @@ body{
     background-color:black;
     background-position: center;
     margin-bottom: 25px;
+    margin-left: 20px;
+    margin-right:20px;
 }
 
 .hero_photo{
@@ -81,7 +94,6 @@ body{
 .footer{
     margin-top:50px;
     display: block;
-    margin-left: 10px;
     border: double #00f9ff 12px;
     border-radius: 10px;
     padding:10px;
@@ -90,7 +102,6 @@ body{
 .footer_group{
     display: inline-block;
     margin-left:42%; 20px;
-    margin-bottom: 
 }
 
 .fa-instagram{
@@ -170,21 +181,26 @@ a:hover{
 /*    font-family: "Open Sans";*/
 /*}*/
 
-h1{
-    font-size: 30px;
-    font-family:"Monoton";
-    color:#00f9ff;
-    font-weight: 300;
-    float:left;
-    margin-left: 30px;
-    margin-top: 10px;
-    letter-spacing: 2px;
-}
+/*h1{*/
+/*    font-size: 30px;*/
+/*    font-family:"Monoton";*/
+/*    color:#00f9ff;*/
+/*    font-weight: 300;*/
+/*    float:left;*/
+/*    margin-left: 30px;*/
+/*    margin-top: 20px;*/
+/*    letter-spacing: 2px;*/
+/*}*/
 
 h2{
     color:#00f9ff;
     font-family: "Monoton";
     font-weight: 100;
+    margin-left: 30px;
+    margin-top: 21px;
+    letter-spacing: 2px;
+    font-size: 40px;
+
 }
 
 .about{
@@ -227,14 +243,48 @@ p{
     font-family:"Aldrich";
     color:#00f9ff;
     font-size: larger;
-    margin-left:30px;    
+    margin-left:30px;  
 }
 
-.title{
-    color:white;
-    font-family:"Monoton";
-    text-align: center;
-    font-size: 40px;
-    float:left;
-    margin-left: 40px;
+.contact_p{
+    font-family:"Aldrich";
+    color:#00f9ff;
+    font-size: larger;
+    margin-left:25px;    
+}
+
+/*CONTACT STYLES*/
+.contact{
+    margin-top:50px;
+    border: double 5px #00f9ff;
+    margin-right:3px;        
+    box-shadow: 1px 1px 40px 2px #0ff;
+    border-radius: 25px;
+    background: rgba(0,0,0, .45);
+}
+
+.contact_left{
+    display: inline-block;
+    margin-left:23%;
+    margin-top:10px;
+}
+
+.contact_right{
+    display: inline-block;
+    margin-left:50px;
+    margin-bottom:10px;
+}
+
+.contact_list{
+    margin-top: 20px;
+    border: double 5px #00f9ff;
+    margin-right:3px;        
+    box-shadow: 1px 1px 40px 2px #0ff;
+    border-radius: 25px;
+    background: rgba(0,0,0, .45);
+    padding: 5px;
+    list-style:none;
+    font-family: "Aldrich";
+    font-size: 30px;
+    padding-left: 20px;
 }
